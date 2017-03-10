@@ -52,8 +52,8 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="xrV-kN-OnM"/>
                     <connections>
-                        <segue destination="byY-IG-y7s" kind="modal" identifier="addItem" id="PPL-iQ-8In"/>
-                        <segue destination="6dS-Wz-sme" kind="push" identifier="detailsView" id="peM-B4-2rh"/>
+                        <segue destination="byY-IG-y7s" kind="presentation" identifier="addItem" id="PPL-iQ-8In"/>
+                        <segue destination="6dS-Wz-sme" kind="show" identifier="detailsView" id="peM-B4-2rh"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8gt-uO-XWn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -305,7 +305,7 @@
                     <tabBarItem key="tabBarItem" title="My" image="img2" id="9Bc-GX-cLr"/>
                     <connections>
                         <outlet property="lb_count" destination="gVh-NX-E25" id="RlK-1z-2NB"/>
-                        <segue destination="BYZ-38-t0r" kind="modal" identifier="checkpwd" id="Vkx-K9-cZX"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="checkpwd" id="Vkx-K9-cZX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iuO-2y-aBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -372,8 +372,8 @@
                     <connections>
                         <outlet property="tf_password" destination="cE7-0a-9Nr" id="BNW-LO-XCA"/>
                         <outlet property="tf_username" destination="rVH-JA-NaU" id="jQa-mv-vjg"/>
-                        <segue destination="zRb-z8-f1x" kind="modal" identifier="showMainPage" id="Q6Y-fv-p06"/>
-                        <segue destination="BYZ-38-t0r" kind="modal" identifier="login" id="Y48-Ny-MnK"/>
+                        <segue destination="zRb-z8-f1x" kind="presentation" identifier="showMainPage" id="Q6Y-fv-p06"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="login" id="Y48-Ny-MnK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M6q-3x-km1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -465,7 +465,7 @@
         <image name="img2" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Q6Y-fv-p06"/>
+        <segue reference="C9N-hi-hdV"/>
         <segue reference="Y48-Ny-MnK"/>
     </inferredMetricsTieBreakers>
 </document>
