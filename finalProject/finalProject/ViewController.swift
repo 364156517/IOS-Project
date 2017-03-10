@@ -9,8 +9,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     
+    @IBOutlet weak var tf_password: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,9 +26,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func click_unlock(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        if (UserConfig.User?.value(forKey: "password") as! String) == tf_password.text
+        {
+            self.performSegue(withIdentifier: "showList", sender: self)
+        }else {
+            Alert.show("password error", view: self)
+        }
     }
     
     
 }
-

@@ -10,13 +10,21 @@ import UIKit
 
 class MyViewController: UIViewController {
     
+    @IBOutlet weak var lb_count: UILabel!
+    
+    let coreData = BaseCoreData()
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
-        
+        if let list = coreData.findAllCoreDate(entityName: "Itemlist", predicate: nil){
+            
+            lb_count.text = String(list.count)
+        }else{
+            lb_count.text = "0"
+        }
     }
     
     override func didReceiveMemoryWarning() {

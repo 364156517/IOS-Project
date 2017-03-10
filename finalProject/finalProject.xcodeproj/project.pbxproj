@@ -21,6 +21,12 @@
 		200939CD1E67FD1D00E45A79 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200939CC1E67FD1D00E45A79 /* MyViewController.swift */; };
 		200939CF1E67FD3800E45A79 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200939CE1E67FD3800E45A79 /* TabBarViewController.swift */; };
 		200939D11E67FD5800E45A79 /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200939D01E67FD5800E45A79 /* UserPreference.swift */; };
+		20D493751E7257AA00871850 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D493741E7257AA00871850 /* Alert.swift */; };
+		20D493771E7257DC00871850 /* diaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D493761E7257DC00871850 /* diaryTableViewController.swift */; };
+		20D493791E7257FB00871850 /* BaseCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D493781E7257FB00871850 /* BaseCoreData.swift */; };
+		20D4937B1E72582800871850 /* UserConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4937A1E72582800871850 /* UserConfig.swift */; };
+		20D4937D1E72584A00871850 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4937C1E72584A00871850 /* AddItemViewController.swift */; };
+		20D4937F1E72586900871850 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4937E1E72586900871850 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		200939CC1E67FD1D00E45A79 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		200939CE1E67FD3800E45A79 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		200939D01E67FD5800E45A79 /* UserPreference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPreference.swift; sourceTree = "<group>"; };
+		20D493741E7257AA00871850 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		20D493761E7257DC00871850 /* diaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = diaryTableViewController.swift; sourceTree = "<group>"; };
+		20D493781E7257FB00871850 /* BaseCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoreData.swift; sourceTree = "<group>"; };
+		20D4937A1E72582800871850 /* UserConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserConfig.swift; sourceTree = "<group>"; };
+		20D4937C1E72584A00871850 /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		20D4937E1E72586900871850 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +135,12 @@
 				200939CC1E67FD1D00E45A79 /* MyViewController.swift */,
 				200939CE1E67FD3800E45A79 /* TabBarViewController.swift */,
 				200939D01E67FD5800E45A79 /* UserPreference.swift */,
+				20D493741E7257AA00871850 /* Alert.swift */,
+				20D4937A1E72582800871850 /* UserConfig.swift */,
+				20D493781E7257FB00871850 /* BaseCoreData.swift */,
+				20D493761E7257DC00871850 /* diaryTableViewController.swift */,
+				20D4937E1E72586900871850 /* DetailViewController.swift */,
+				20D4937C1E72584A00871850 /* AddItemViewController.swift */,
 			);
 			path = finalProject;
 			sourceTree = "<group>";
@@ -292,12 +310,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D4937F1E72586900871850 /* DetailViewController.swift in Sources */,
 				200939971E67F6A600E45A79 /* ViewController.swift in Sources */,
 				2009399D1E67F6A600E45A79 /* finalProject.xcdatamodeld in Sources */,
+				20D4937B1E72582800871850 /* UserConfig.swift in Sources */,
 				200939CB1E67FCF300E45A79 /* BootViewController.swift in Sources */,
 				200939CD1E67FD1D00E45A79 /* MyViewController.swift in Sources */,
+				20D4937D1E72584A00871850 /* AddItemViewController.swift in Sources */,
 				200939D11E67FD5800E45A79 /* UserPreference.swift in Sources */,
 				200939CF1E67FD3800E45A79 /* TabBarViewController.swift in Sources */,
+				20D493771E7257DC00871850 /* diaryTableViewController.swift in Sources */,
+				20D493791E7257FB00871850 /* BaseCoreData.swift in Sources */,
+				20D493751E7257AA00871850 /* Alert.swift in Sources */,
 				200939951E67F6A600E45A79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
